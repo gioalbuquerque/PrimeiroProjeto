@@ -11,8 +11,12 @@ let filmes = [
         sinopse: "Com a mudança para uma nova cidade, as emoções de Riley, que tem apenas 11 anos de idade, ficam extremamente agitadas. Uma confusão na sala de controle do seu cérebro deixa a Alegria e a Tristeza de fora, afetando a vida de Riley radicalmente."
     },
     {
-        titulo1:"Free Guy",
+        titulo1:"Free-Guy",
         sinopse: "Um caixa de banco preso a uma entediante rotina tem sua vida virada de cabeça para baixo quando descobre que é um personagem em um jogo interativo. Agora ele precisa aceitar sua realidade e lidar com o fato de que é o único que pode salvar o mundo."
+    },
+    {
+        titulo: "O lar das crianças peculiares",
+        sinopse:"Seguindo uma pista deixada por seu avô, um jovem de 16 anos descobre uma ilha misteriosa onde vivem crianças com poderes especiais, mas também inimigos ocultos perigosos."
     }
 ]
 
