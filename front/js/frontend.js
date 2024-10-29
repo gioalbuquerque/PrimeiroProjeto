@@ -1,8 +1,9 @@
 const protocolo = 'http://'
 const baseURL = 'localhost:3000'
-const filmesEndPoint = '/filmes'
+
 
 function listarFilmes (filmes){
+    
      //posicionamento da tabela
      let tabela = document.querySelector('.filmes')
      let corpoTabela = tabela.getElementsByTagName('tbody')[0]
@@ -19,11 +20,13 @@ function listarFilmes (filmes){
 }
 
 async function obterFilmes() {
+    const filmesEndPoint = '/filmes'
     const URLcompleta = `${protocolo}${baseURL}${filmesEndPoint}`
     const filmes = (await axios.get(URLcompleta)).data
     listarFilmes(filmes)
 } 
 async function cadastrarFilme(){
+    const filmesEndPoint = '/filmes'
     //MONTAR A URL de acesso usando a crase
     const URLcompleta =`${protocolo}${baseURL}${filmesEndPoint}`
     //capturar os inputs do usuário , trazendo para variaveis locais // quarySelector =faz você se localizar
